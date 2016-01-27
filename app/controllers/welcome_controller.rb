@@ -1,7 +1,6 @@
 class WelcomeController < ApplicationController
-
-	def action
-		@welcome = Welcome.new
+	def index
+		
 	end
 
 end
