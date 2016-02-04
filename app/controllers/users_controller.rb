@@ -26,7 +26,7 @@ class UsersController < ApplicationController
 		if current_user.save
 			redirect_to my_friends_path, notice: "Friend was successfully added"
 		else
-			redirect_to my_friends_path, flash[:error] = "There was an error with adding user as friend"
+			redirect_to my_friends_path, flash[:error] = "There was an error with adding user as a friend"
 		end
 	end
 
